@@ -8,10 +8,26 @@ fn main(){
     //     hackerrank::time_conversion::timeConversion("10:47:55AM"),
     //     String::from("10:47:55")
     // );
-    // hackerrank::extra_long_factorials::extraLongFactorials(25);
+    assert_eq!(
+    hackerrank::extra_long_factorials::extraLongFactorials(1),
+    "1"
+    );
     assert_eq!(
     hackerrank::extra_long_factorials::extraLongFactorials(25),
-    15511210043330985984000000
-    )
+    "15511210043330985984000000"
+    );
+    
+    assert_eq!(
+    hackerrank::extra_long_factorials::extraLongFactorials(10),
+    "3628800"
+    );
+    assert_eq!(
+    hackerrank::extra_long_factorials::extraLongFactorials(10),
+    "3628800"
+    );
+    assert_eq!(
+    hackerrank::extra_long_factorials::extraLongFactorials(50),
+    "3628800"
+    );
 
 }   
